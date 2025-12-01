@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE2E4F8C-6508-43FB-B517-77EF18528A21}</ProjectGuid>
+    <ProjectGuid>{8FDF98C0-C6AE-47C3-A08F-36021BFC233D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Datoteke</RootNamespace>
-    <AssemblyName>Datoteke</AssemblyName>
+    <RootNamespace>Datoteke2</RootNamespace>
+    <AssemblyName>Datoteke2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
